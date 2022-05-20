@@ -30,7 +30,7 @@ jobs:
     - run: ls
     - run: node -v
     - name: Docker version
-      run: doccker -v
+      run: docker -v
     - name: aws cli
       run: aws help
    
