@@ -29,4 +29,8 @@ jobs:
     - run: npm install 
     - run: ls
     - run: node -v
+    - name: Docker version
+      run: doccker -v
+    - name: aws cli
+      run: aws help
    
